@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="fa">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Open Street Map!</title>
+
+    <meta name="description" content="ارائه‌ای در مورد اوپن استریت مپ، ارائه شده در جشنواره روز آزادی نرم‌افزار سال 1395." />
+    <meta name="author" content="مهراد قطب‌الدینی" />
+    <meta property="image" content="osm.png">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic"
+        rel="stylesheet" />
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+
+    <link rel="shortcut icon" href="favicon.png" />
+
+
+</head>
+
+<body class="impress-not-supported">
+    <div class="fallback-message">
+        <p>متاسفانه مرورگر شما از ویژگی‌های این ارائه
+            <b>پشتیبانی نمیکند!</b> برای همین شما یک نسخه خیلی ساده تر را مشاهده میکنید.</p>
+        <p>برای مشاهده نسخه کامل از یک مرورگر جدید مانند، <b>کروم</b>, <b>سافاری</b> یا <b>فایرفاکس</b> استفاده کنید.</p>
+    </div>
+
+    <div id="impress" data-transition-duration="2000" data-perspective="500">
+
+
+
+        <div id="intro" class="step slide" data-x="-1200" data-y="-1500" data-scale="1" data-z="500">
+            <h1>اپن استریت مپ (OSM) را بشناسیم</h1>
+            <img class="centerimg" src="osm.png" alt="">
+            <h2>هومن مسگری</h2>
+            <h4>
+                مهراد قطب‌الدینی
+            </h4>
+        </div>
+
+
+
+        <div style="" class="step step2 slide" data-x="-1000" data-z="-2000" data-y="-1500" data-rotate-y="0">
+            <h1>انواع نقشه</h1>
+            <ul>
+                <li>کاغذی</li>
+                <li>دیجیتال
+                    <ol>
+                        <li class="ool">آفلاین</li>
+                        <li class="ool">آنلاین</li>
+                    </ol>
+                </li>
+                <li>تخصصی
+                    <ol>
+                        <li class="ool">دریایی</li>
+                        <li class="ool">هواپیمایی</li>
+                    </ol>
+                </li>
+            </ul>
+        </div>
+
+        <div style="text-align:right;" class="step " data-x="-800" data-z="-2000" data-y="-1500" data-rotate-y="-30">
+            <h1>معایب</h1>
+            <ul>
+                <li>هزینه بالا</li>
+                <li>عدم دسترسی عمومی</li>
+                <li>مجوز‌های محدود</li>
+            </ul>
+        </div>
+
+        <div class="step" data-x="11000" data-y="2000" data-scale="20" data-z="-79990">
+        </div>
+
+        <div class="step slide" data-x="2000" data-y="6000" data-scale="2" data-z="-78500" data-rotate-x="-40" data-rotate-y="0"
+            data-rotate-z="0">
+            <img class=" centerimg" src="osm.png" alt="">
+            <div class="row" style="width:80%;margin:0 auto;">
+                <img class="col-md-3 imgLogo" src="Unlock.png">
+                <div class="col-md-1"></div>
+                <img class="col-md-3 imgLogo" src="Wikipedia.png">
+                <div class="col-md-1"></div>
+                <img class="col-md-3 imgLogo" src="2004.png">
+            </div>
+            <div class="row" style="width:80%;margin:0 auto;">
+                <div class="col-md-2"></div>
+                <img class="col-md-3 imgLogo" src="CC.png">
+                <div class="col-md-2"></div>
+                <img class="col-md-3 imgLogo" src="ODbL.PNG">
+                <div class="col-md-2"></div>
+            </div>
+            Steve Coast
+        </div>
+
+        <div class="step slide" data-x="3000" data-y="4000" data-scale="2" data-z="-79000" data-rotate-x="-40" data-rotate-y="0"
+            data-rotate-z="0">
+            <img src="item/items.png" alt="">
+        </div>
+
+        <div class="step slide" data-x="4000" data-y="3000" data-scale="2" data-z="-78000" data-rotate-x="-40" data-rotate-y="0"
+            data-rotate-z="0">
+            <img src="facts.png" alt="">
+
+        </div>
+        <!--
+        <div class="step slide" data-x="6000" data-y="3000" data-scale="2" data-z="-78000" data-rotate-x="-40" data-rotate-y="0"
+            data-rotate-z="0">
+            2 آمار و فکت ها
+        </div>
+         --------------- -->
+
+        <div class="step slide" data-z="-77000" data-x="11345" data-y="425" data-rotate="150" data-scale="1">
+            <h1>نقطه (Node)</h1>
+            <ul>
+                <li>بیانگر یک نقطه بر روی کره زمین است</li>
+                <li>عنصر اصلی و بنیادی</li>
+                <li>نقطه‌ای از مسیر/ناحیه</li>
+                <li>دارای مختصات جغرافیایی (Lat, Lon) و شناسه (ID)</li>
+                <li>دارای تگ‌هایی از کلید=مقدار</li>
+            </ul>
+        </div>
+
+        <div class="step slide" data-z="-77000" data-x="11150" data-y="-300" data-rotate="180" data-scale="1">
+            <img src="Sharif Node.png" alt="">
+        </div>
+
+
+
+
+        <div class="step slide" data-z="-76000" data-x="13345" data-y="425" data-rotate="150" data-scale="1">
+            <h1>مسیر (Way)</h1>
+            <ul>
+                <li>مجموعه متوالی ترتیب‌داری از نقاط
+                    <ol>
+                        <li class="ool">دارای ذات برداری</li>
+                    </ol>
+                </li>
+                <li>دارای تگ‌هایی از کلید=مقدار</li>
+                <li>بیانگر هر مفهوم خطی بر روی کره زمین
+                    <ol>
+                        <li class="ool">انواع راه</li>
+                        <li class="ool">رودخانه</li>
+                        <li class="ool">مسیر راه‌آهن</li>
+                    </ol>
+                </li>
+            </ul>
+        </div>
+
+        <div class="step slide" data-z="-76000" data-x="13150" data-y="-300" data-rotate="180" data-scale="1">
+            <img src="Sharif Way.png" alt="">
+        </div>
+
+
+        <div class="step slide" data-z="-75000" data-x="15345" data-y="425" data-rotate="150" data-scale="1">
+            <h1>ناحیه (Area)</h1>
+            <ul>
+                <li>مسیری که نقطه ابتدا و انتهای آن یکی باشد</li>
+                <li>دارای تگ‌هایی از کلید=مقدار </li>
+                <li>بیانگر هر محدوده بر روی کره زمین
+                    <ol>
+                        <li class="ool">ساختمان</li>
+                        <li class="ool">پارک</li>
+                        <li class="ool">دریاچه</li>
+                    </ol>
+                </li>
+            </ul>
+        </div>
+
+        <div class="step slide" data-z="-75000" data-x="15150" data-y="-300" data-rotate="180" data-scale="1">
+            <img src="Sharif Area.png" alt="">
+        </div>
+
+
+
+
+
+        <div class="step slide" data-z="-74000" data-x="18345" data-y="425" data-rotate="150" data-scale="1">
+            <h1>رابطه (Relation)</h1>
+            <ul>
+                <li>برای برقراری رابطه بین چند عنصر</li>
+                <li>دارای چند عضو</li>
+                <li>دارای تگ‌هایی از کلید=مقدار </li>
+                <li>برای تعین:
+                    <ol>
+                        <li class="ool">مسیرهای خاص (خط اتوبوس)</li>
+                        <li class="ool">محدودیت‌ها (گردش‌های غیر مجاز)</li>
+                        <li class="ool">یکپارچه‌سازی (خیابان، پل، تونل)</li>
+                    </ol>
+                </li>
+            </ul>
+        </div>
+
+        <div class="step slide" data-z="-74000" data-x="18150" data-y="-300" data-rotate="180" data-scale="1">
+            <img src="Sharif Relation.png" alt="">
+        </div>
+
+
+
+        <!-- ------------------------------------------------------ -->
+
+        <div class="step slide" data-x="10000" data-y="4500" data-scale="1" data-z="-76000" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0">
+            <h2 class="becent">نحوه تعیین ساختار</h2>
+        </div>
+
+        <div class="step slide" data-x="10000" data-y="4500" data-scale="1" data-z="-77500" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0">
+            <h1 class="becent">ارائه</h1>
+            <span class="centText">1</span>
+        </div>
+
+        <div class="step slide" data-x="10000" data-y="5000" data-scale="1" data-z="-77500" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0">
+            <h1 class="becent">بررسی و رای‌گیری</h1>
+            <span class="centText">2</span>
+        </div>
+
+        <div class="step slide" data-x="10000" data-y="5500" data-scale="1" data-z="-77500" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0">
+            <h1 class="becent">تصویب</h1>
+            <span class="centText">3</span>
+        </div>
+
+        <div class="step slide eng tabel1" data-x="10000" data-y="6000" data-scale="2" data-z="-77000" data-rotate-x="-30" data-rotate-y="0"
+            data-rotate-z="0">
+            <table class="table ">
+                <thead class="thead-inverse">
+                    <tr>
+                        <th>key &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =</th>
+                        <th>value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>highway &nbsp;=</td>
+                        <td>residential</td>
+                    </tr>
+                    <tr>
+                        <td>landuse &nbsp;=</td>
+                        <td>cemetery</td>
+                    </tr>
+                    <tr>
+                        <td>job &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =</td>
+                        <td>maghazeh</td>
+                    </tr>
+                    <tr>
+                        <td>oneway &nbsp;=</td>
+                        <td>yes</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- --------------- -->
+
+        <div class="step slide eng" data-x="10000" data-y="6000" data-scale="2" data-z="-79000" data-rotate-x="-50" data-rotate-y="0"
+            data-rotate-z="0">
+            <img src="googlemap.JPG" alt="">
+        </div>
+
+        <div class="step slide" data-x="10000" data-y="1000" data-scale="1" data-z="-79500" data-rotate-x="-30" data-rotate-y="0"
+            data-rotate-z="0">
+            <div style="margin:25% auto;">
+                <div clas="row">
+                    <img class="col-md-4" src="garmin.png" alt="">
+                    <img class="col-md-4" src="ikco.png" alt="">
+                    <img class="col-md-4" src="game.png" alt="">
+                </div>
+                <br>
+                <h2 class="row">
+                    ...And so more
+                </h2>
+            </div>
+        </div>
+        <div class="step " data-x="10000" data-y="500" data-scale="1" data-z="-79000" data-rotate-x="-30" data-rotate-y="0" data-rotate-z="0">
+            <img src="Capture.JPG" style="width:700px;" alt="">
+        </div>
+        <!--
+        <div class="step" data-x="10000" data-y="0" data-scale="1" data-z="-79500" data-rotate-x="-30" data-rotate-y="0" data-rotate-z="0">
+            <video width="800" height="600" controls>
+                <source src="OSM.m4v" type="video/mp4"> Your browser does not support the video tag.
+            </video>
+        </div>
+
+        -->
+
+        <div class="step slide eng" style="text-align:center;" data-x="10000" data-y="-1000" data-scale="1" data-z="-79500" data-rotate-x="-30"
+            data-rotate-y="0" data-rotate-z="0">
+            <h1>Now, It's your turn :)</h1>
+            <br>
+            <table class="table ">
+                <tr>
+                    <td><img src="internet.png" class="tynimg"> Website:</td>
+                    <td><img src="osm.png" class="tynimg"><a href="http://openstreetmap.org">openstreetmap.org</a></td>
+                </tr>
+                <tr>
+                    <td><img src="android.png" class="tynimg"> Android App:</td>
+                    <td><img src="osm.png" class="tynimg"> <a href="https://play.google.com/store/apps/details?id=de.blau.android"> vepussi</a></td>
+                </tr>
+                <tr>
+                    <td><img src="apple.png" class="tynimg"> IOS App:</td>
+                    <td><img src="Gomap.png" class="tynimg"> <a href="https://itunes.apple.com/us/app/go-map!!/id592990211?mt=8">GO Map!!</a></td>
+                </tr>
+                <tr>
+                    <td><img src="java.png" class="tynimg"> Java:</td>
+                    <td><img src="josm_logo.png" class="tynimg"><a href="https://josm.openstreetmap.de/">JOSM</a> </td>
+                </tr>
+            </table>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+        <div id="overview" data-z="-77000" data-rotate-x="-60" class="step" data-x="6000" data-y="6000" data-scale="20" data-z="2000">
+        </div>
+
+     <div id="tehran" class="step step2" data-x="0" data-y="0" data-scale="4" data-z="-80000">
+            <img src="tehran1.jpg" alt="">
+
+        </div>
+    </div>
+    <script src="js/impress.js"></script>
+    <script>impress().init();</script>
+    <!--
+    
+    The `impress()` function also gives you access to the API that controls the presentation.
+    
+    Just store the result of the call:
+    
+        
+    
+    and you will get three functions you can call:
+    
+        `api.init()` - initializes the presentation,
+        var api = impress();
+        `api.next()` - moves to next step of the presentation,
+        `api.prev()` - moves to previous step of the presentation,
+        `api.goto( stepIndex | stepElementId | stepElement, [duration] )` - moves the presentation to the step given by its index number
+                id or the DOM element; second parameter can be used to define duration of the transition in ms,
+                but it's optional - if not provided default transition duration for the presentation will be used.
+    
+    You can also simply call `impress()` again to get the API, so `impress().next()` is also allowed.
+    Don't worry, it wont initialize the presentation again.
+    
+    For some example uses of this API check the last part of the source of impress.js where the API
+    is used in event handlers.
+    
+-->
+
+</body>
+
+</html>
+
+<!--
+    
+    Are you still reading this?
+    
+    For real?
+    
+    I'm impressed! Feel free to let me know that you got that far (I'm @bartaz on Twitter), 'cause I'd like
+    to congratulate you personally :)
+    
+    But you don't have to do it now. Take my advice and take some time off. Make yourself a cup of coffee, tea,
+    or anything you like to drink. And raise a glass for me ;)
+    
+    Cheers!
+    
+-->
